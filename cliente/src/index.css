@@ -1,0 +1,52 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+  
+}
+*, *:before, *:after {
+box-sizing: inherit;
+}
+body {
+  font-family: arial,helvetica, sans-serif;
+  height: 100%;
+  margin: 0;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e570e7+0,c85ec7+47,a849a3+100;Pink+3D+%233 */
+  background:black; /* Old browsers */
+ 
+  background-attachment: fixed;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e570e7', endColorstr='#a849a3',GradientType=0 );
+  margin-bottom: 10rem;
+}
+header {
+text-align: center;
+padding: 20px 0;
+}
+div.contenedor {
+  max-width: 800px;
+  width: 95%;
+  margin: 0 auto;
+}
+div.hero img {
+  width: 100%;
+}
+h2 {
+text-align: center;
+color: white;
+text-transform: uppercase;
+}
+
+.contenedor-boton {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contenedor-boton .boton {
+  padding: .5rem 3rem;
+  background-color: gray;
+  border-radius: 10px;
+}
+ 
+.contenedor-boton .boton:hover {
+  cursor: pointer;
+}

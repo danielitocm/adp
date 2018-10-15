@@ -1,0 +1,37 @@
+.navegacion {
+     display: flex;
+     justify-content: space-between;
+     margin-top: 1rem;
+     padding-bottom: 3rem;
+ }
+ .navegacion a {
+     font-size: 1rem;
+     color: white;
+     text-decoration: none;
+     text-transform: uppercase;
+ }
+ .navegacion a.activo {
+     color: white
+ }
+
+
+ .footer {
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    padding-bottom: 3rem;
+    
+
+
+ }
+
+ .footer a {
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.footer a.activo {
+    color: white
+}
